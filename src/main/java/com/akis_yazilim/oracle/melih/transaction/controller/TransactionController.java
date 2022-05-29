@@ -35,7 +35,7 @@ public class TransactionController
 
     // localhost:5090/api/transaction
     @PostMapping
-    public ResponseEntity<Transaction> save(Transaction transaction)
+    public ResponseEntity<Transaction> save(@RequestBody Transaction transaction)
     {
         Transaction savedTransaction = transactionService.save(transaction);
 

@@ -40,7 +40,7 @@ public class TransactionService extends AbstractTransactionService
     {
         try
         {
-           entity.setTransactionTime(new Date());
+            entity.setTransactionTime(new Date());
             return transactionRepository.save(entity);
         }
         catch (IllegalArgumentException e)

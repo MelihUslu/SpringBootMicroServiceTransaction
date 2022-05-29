@@ -1,0 +1,15 @@
+{
+  "name": "microservice-transaction-melih",
+
+  "buildpacks":
+  [
+    {
+
+
+      "url":"heroku/gradle"
+
+    }
+  ]
+
+
+}
