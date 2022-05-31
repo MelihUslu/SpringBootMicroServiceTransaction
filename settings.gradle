@@ -1,3 +1,2 @@
 rootProject.name = 'SpringBootMicroServiceTransaction'
 
-org.gradle.jvmargs=-Xmx4096M
