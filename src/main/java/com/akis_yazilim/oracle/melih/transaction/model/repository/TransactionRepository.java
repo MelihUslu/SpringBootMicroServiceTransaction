@@ -8,5 +8,5 @@ import java.util.List;
 public interface TransactionRepository extends JpaRepository<Transaction, Integer>
 {
     //SELECT * FORM TRANSACTIONS WHERE USER_ID = ?
-   List<Transaction> findByUserID(Integer userID);
+  // List<Transaction> findByUserID(Integer userID);
 }
