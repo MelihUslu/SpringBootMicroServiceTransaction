@@ -22,7 +22,7 @@ public class TransactionController
     @GetMapping("{userID}")
     public ResponseEntity<List<Transaction>> getTransactionsOfUser(@PathVariable Integer userID)
    {
-        returgn ResponseEntity.ok(transactionService.findByUserID(userID));
+        return ResponseEntity.ok(transactionService.findByUserID(userID));
    }
 
 
