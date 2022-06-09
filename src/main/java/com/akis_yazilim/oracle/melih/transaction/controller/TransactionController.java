@@ -17,14 +17,14 @@ public class TransactionController
     @Autowired
     private AbstractTransactionService transactionService;
 
-    /*
+
     // ör: localhost:5090/api/transaction/283
     @GetMapping("{userID}")
     public ResponseEntity<List<Transaction>> getTransactionsOfUser(@PathVariable Integer userID)
    {
-        return ResponseEntity.ok(transactionService.findByUserID(userID));
+        returgn ResponseEntity.ok(transactionService.findByUserID(userID));
    }
-   */
+
 
     // ör: localhost:5090/api/transaction/95
     @DeleteMapping("{transactionID}")
